@@ -2,14 +2,13 @@ import React from 'react'
 
 import styles from './style.module.css'
 
+const navTabs = ['Naslovnica', 'Vijesti', 'Oglasnik', 'Udruge', 'Natječaji','Ostalo']
+
 const NavigationBar = () => (
   <nav className={styles.navigationBar}>
-      <li className={styles.active}>Naslovnica</li>
-      <li>Vijesti</li>
-      <li>Oglasnik</li>
-      <li>Udruge</li>
-      <li>Natječaji</li>
-      <li>Ostalo</li>
+    {navTabs.map(tab => <li className={tab==='Naslovnica' ? styles.active : ''}>
+      {tab}</li>
+    )}
   </nav>
 )
 
