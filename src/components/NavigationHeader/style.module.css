@@ -1,5 +1,6 @@
 .navigationHeader {
-    height: 115px;
-    display: flex;
+    background-image: url('../../images/starigrad.jpg');
+    height: 280px;
+/*     display: flex; */
     justify-content: space-between;
   }
