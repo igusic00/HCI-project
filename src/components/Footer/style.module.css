@@ -1,0 +1,76 @@
+.footer {
+    background-color: #e2d0d085;
+    text-align: center;
+    padding: 70px;
+    height: 80px;
+    color:#555;
+    font-size: 16px;
+    margin-top: 900px;
+    list-style-type: none;
+    background-image: url(../../images/icon-alka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 100px;
+    background-size: 100px;   
+}
+
+.footer .address {
+    list-style-type: none;
+    flex-flow: column;
+    text-align: left;
+    padding-right: 10px;
+    line-height: 30px;
+    position:relative; 
+    left:-90px;
+    bottom: 38px;
+}
+
+.footer .title {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 50px;
+}
+
+.footer .return {
+    list-style-type: none;
+    text-align:left;
+    background-color: white;
+    font-size: 30px;
+    width: 159px;
+    position: absolute;
+    bottom: -589px;
+    right: 0px; 
+}
+
+.social{
+     background:none;
+     width: 208px;
+     margin: -150px 1070px;
+     position: relative;
+     margin-right: 0px;
+     display: fixed;
+}
+
+.social a{
+    margin: 0px 10px;
+    transition: transform 250ms;
+    display: inline-block;
+    color:black;
+}
+
+.social a:hover{
+    transform: translate(-2px);
+}
+
+.radio{
+    font-size: 20px;
+    background:none;
+    width: 130px;
+    margin: 170px 1111px;
+    position: relative;
+    margin-right: 0px;
+    display: fixed;
+}
