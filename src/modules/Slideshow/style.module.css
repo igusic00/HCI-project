@@ -1,0 +1,40 @@
+.eachslide > div {
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 818px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  .eachslide span {
+    display: table;
+    margin: 0 auto;
+    padding: 5px 20px;
+    font-size: 30px;
+    background-image: #efefef;
+    background-color: #e2d0d0c0;
+    border-radius: 10px;
+    border-top: none;
+    text-align: center;
+    margin-top: 43%;
+  }
+
+  .slideOne{
+    background-image: url("../../images/1.jpg");
+  }
+  .slideTwo{
+    background-image: url("../../images/2.jpg");
+  }
+  .slideThree{
+    background-image: url("../../images/3.jpg");
+  }
+  .slideFour{
+    background-image: url("../../images/4.jpg");
+  }
+  .slideFive{
+    background-image: url("../../images/5.jpg");
+  }
