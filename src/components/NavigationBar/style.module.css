@@ -1,11 +1,12 @@
 .navigationBar {
   position: absolute;
   left: -228px;
-  background-color: #e2d0d085;
+  background-color: #dfc8c8;
   display: flex;
   justify-content: space-evenly;
   flex-flow: row;
   width: 100%;
+/*   height: 52px; */
   margin: 228px;
 }
 

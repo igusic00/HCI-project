@@ -1,11 +1,9 @@
 import React from 'react'
 import styles from './style.module.css'
+/* import { Link } from 'react-router-dom'; */
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {
   faFacebook,
-  faFacebookF,
-  faFacebookMessenger,
-  faFacebookSquare,
   faInstagram,
   faTwitter,
   faYoutube
@@ -14,10 +12,19 @@ import {
   const Footer = () => (
     <footer className={styles.footer}>
            <li className={styles.return}>
-              POVRATAK
+{/*               <a 
+                
+              > */}
+                POVRATAK
+{/*               </a> */}
             </li>
             <li className={styles.title}>
+{/*               <a
+                href="http://localhost:8000/"
+                className="fnaslovnica" icon="fnaslovnica" textDecoration="none"
+              > */}
                 Sinjski portal
+              {/* </a> */}
             </li>
             <ul className={styles.address}>
               <li className={styles.contact}>
@@ -53,12 +60,11 @@ import {
               </a>
             </div>
             <div className={styles.radio}>
-              HIT RADIO
               <a
-                href="http://www.hitradio.hr/"
-                className="radio"
+                href="https://www.hitradio.hr/"
+                className="radio" icon="radio" textDecoration="none"
               >
-                
+                HIT RADIO
               </a>
             </div>
     </footer>
