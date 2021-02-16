@@ -5,12 +5,12 @@ import styles from './login.module.css'
 
 const users = [
 {
-  username: "mate",
-  password: "123"
+  username: "ivan",
+  password: "1234"
 },
 {
-  username: "jure",
-  password: "123"
+  username: "mario",
+  password: "1234"
 },
 ]
 
@@ -31,7 +31,7 @@ const Login = () => {
         setError('Success')
         return navigate('/')
       }
-        setError('Wrong username or password')
+        setError('Pogrešno korisničko ime ili lozinka')
     }, 2000)
   }
   
@@ -43,19 +43,19 @@ const Login = () => {
     <section className={styles.container}>
       <section className={styles.field}>
         <label htmlFor="username">
-          Username
+          Korisničko ime
         </label>
         <input name="username" onChange={e => setUserName(e.target.value)}/>
       </section>
       <section className={styles.field}>
         <label htmlFor="password">
-          Password
+          Lozinka
         </label>
         <input name="password" type="password" onChange={e => setPassword(e.target.value)} />
       </section>
       <p className={`${styles[error !== "Success" ? 'error' : 'success']} ${error ? styles.show : ''}`}>{error}</p>
       <button className={styles.loginButton} onClick={() => submit()}>
-        {loading ? 'Loading...' : 'Login'}
+        {loading ? 'Učitavanje...' : 'Prijava'}
       </button>
     </section>
   </main>

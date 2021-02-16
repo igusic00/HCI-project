@@ -1,5 +1,5 @@
 .navigationBar {
-  position: absolute;
+  position:relative;
   left: -228px;
   background-color: #dfc8c8;
   display: flex;

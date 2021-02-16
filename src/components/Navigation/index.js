@@ -1,12 +1,12 @@
 import React from 'react'
-
 import NavigationBar from '../NavigationBar'
 import Combobox from '../Combobox'
-/* import styles from './style.module.css' */
+import Login from '../Login'
 
 const Navigation = (props) => (
   <section>
       <NavigationBar activeTab={props.activeTab} />
+      <Login />
       <Combobox />
   </section>
 )

@@ -8,13 +8,13 @@ const Profile = () => {
   if (!user) {
     setTimeout(() => navigate('/login'), 4000)
     return <p>
-      You cannot view this page without login! <br/>You will be redirected to login page shortly
+      Ovu stranicu ne možete pregledati bez prijave! <br/>Uskoro ćete biti preusmjereni na stranicu za prijavu.
     </p>
   }
 
   return (
     <main>
-      You are logged in as {user}
+      Logirani ste kao {user}
     </main>
   )
 }
