@@ -1,5 +1,4 @@
 import React from 'react'
-
 import styles from './style.module.css'
 
 const navTabs = ['Naslovnica', 'Vijesti', 'Oglasnik', 'Udruge', 'Natječaji','Ostalo']

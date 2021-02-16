@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {navigate} from 'gatsby'
-
 import styles from './login.module.css'
+import {myLocalStorage} from '../../src/components/helper'
 
 const users = [
 {
@@ -27,7 +27,7 @@ const Login = () => {
       const loginSuccessful = !!users.find(user => user.username === username && user.password === password)
       setLoading(false)
       if (loginSuccessful) {
-        localStorage.setItem("loggedIn", username)
+        myLocalStorage.setItem("loggedIn", username)
         setError('Success')
         return navigate('/')
       }
