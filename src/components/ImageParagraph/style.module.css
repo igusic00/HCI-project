@@ -1,0 +1,146 @@
+.imageParagraph{
+    display: inline;
+    list-style: none;
+}
+
+.natjecaji {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+    /* background-color: #249750; */
+    height: 600px;
+    width: 500px;
+    margin-left: 150px;
+}
+ 
+.oglasnik {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: -600px auto;
+    align-items: center;
+    /* background-color: #12107e; */
+    height: 600px;
+    width: 500px;
+    margin-right: 150px;
+}
+
+.naslov1{
+    position: absolute;
+    top: 0%;
+    left: 175px;
+    width: 150px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.naslov2{
+    position: absolute;
+    top: 0%;
+    left: 175px;
+    width: 150px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph1{
+    position: absolute;
+    background-image: url("../../images/5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 8%;
+    width: 100%;
+    height: 44%;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph2{
+    position: absolute;
+    background-image: url("../../images/6.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    bottom: 0%;
+    width: 100%;
+    height: 44%;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph1text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 14px;
+}
+
+.natjecajiparagraph2text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 94.5px;
+}
+
+.oglasnikparagraph1{
+    position: absolute;
+    background-image: url("../../images/8.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 8%;
+    width: 100%;
+    height: 44%;
+    border-radius: 10px;
+}
+
+.oglasnikparagraph2{
+    position: absolute;
+    background-image: url("../../images/7.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    bottom: 0%;
+    width: 100%;
+    height: 44%;
+    border-radius: 10px;
+}
+
+.oglasnikparagraph1text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 111px;
+}
+
+.oglasnikparagraph2text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 131.5px;
+}
