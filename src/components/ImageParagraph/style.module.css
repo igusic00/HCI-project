@@ -1,6 +1,7 @@
 .imageParagraph{
-    display: inline;
+    display: flex;
     list-style: none;
+    margin-bottom: 60px;
 }
 
 .natjecaji {
@@ -19,7 +20,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: -600px auto;
+    margin: 0px auto;
     align-items: center;
     /* background-color: #12107e; */
     height: 600px;
