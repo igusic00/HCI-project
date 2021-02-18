@@ -1,6 +1,115 @@
-/* .NewsContent{
+.NewsContent{
     position: relative;
-    background-color: chartreuse;
-    width: 100%;
-    
-} */
+    list-style-type: none;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 1200px;
+}
+
+.picture1{  
+    position: absolute;
+    background-image: url("../../images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 40px;
+    left: 0px;
+    width: 500px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.text1{
+    position: absolute;
+    display: flex;
+    top: 40px;
+    width: 650px;
+    right: 0%;
+    height: 230px;
+    text-align: center;
+    background-color: #dfc8c86e;
+    border-radius: 10px;
+}
+
+.NewsContent h1{
+    font-size: 30px;
+}
+
+.NewsContent p{
+    font-size: 25px;
+}
+
+.text2{
+    position: absolute;
+    display: flex;
+    top: 310px;
+    width: 650px;
+    right: 0%;
+    height: 230px;
+    text-align: center;
+    background-color: #dfc8c86e;
+    border-radius: 10px;
+}
+
+.picture2{  
+    position: absolute;
+    background-image: url("../../images/3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 310px;
+    left: 0px;
+    width: 500px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.picture3{  
+    position: absolute;
+    background-image: url("../../images/2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 580px;
+    left: 0px;
+    width: 500px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.text3{
+    position: absolute;
+    display: flex;
+    top: 580px;
+    width: 650px;
+    right: 0%;
+    height: 230px;
+    text-align: center;
+    background-color: #dfc8c86e;
+    border-radius: 10px;
+}
+
+.picture4{  
+    position: absolute;
+    background-image: url("../../images/4.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 850px;
+    left: 0px;
+    width: 500px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.text4{
+    position: absolute;
+    display: flex;
+    top: 850px;
+    width: 650px;
+    right: 0%;
+    height: 230px;
+    text-align: center;
+    background-color: #dfc8c86e;
+    border-radius: 10px;
+}
