@@ -3,6 +3,6 @@ export const navs = [
     {tab: 'Vijesti', to: 'vijesti'}, 
     {tab: 'Oglasnik', to: '/'}, 
     {tab: 'Udruge', to: '/'},
-    {tab: 'Natječaji', to: '/'},
+    {tab: 'Natječaji', to: 'natjecaji'},
     {tab: 'Ostalo', to: '/'}
 ]

@@ -1,0 +1,219 @@
+.TendersContent{
+    position: relative;
+    list-style-type: none;
+    margin-left: 190px;
+    margin-right: 190px;
+    height: 1000px;
+}
+
+.header{
+    position: absolute;
+    top: 40px;
+    right: 304.5px;
+    width: 360px;
+    height: 33px;
+    text-align: center; 
+    font-size: 28px;
+    background-color: #dfc8c8;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph1{
+    position: absolute;
+    background-image: url("../../images/5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 90px;
+    width: 400px;
+    height: 200px;
+    left: 70px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph1text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 0px;
+}
+
+.natjecajiparagraph2{
+    position: absolute;
+    background-image: url("../../images/6.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 90px;
+    width: 400px;
+    height: 200px;
+    right: 70px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph2text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 44.5px;
+}
+
+.natjecajiparagraph3{
+    position: absolute;
+    background-image: url("../../images/6.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 307px;
+    width: 400px;
+    height: 200px;
+    left: 70px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph3text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 0px;
+}
+
+.natjecajiparagraph4{
+    position: absolute;
+    background-image: url("../../images/6.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 307px;
+    width: 400px;
+    height: 200px;
+    right: 70px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph4text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 0px;
+}
+
+.natjecajiparagraph5{
+    position: absolute;
+    background-image: url("../../images/6.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 524px;
+    width: 400px;
+    height: 200px;
+    left: 70px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph5text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 0px;
+}
+
+.natjecajiparagraph6{
+    position: absolute;
+    background-image: url("../../images/6.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 524px;
+    width: 400px;
+    height: 200px;
+    right: 70px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph6text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 31px;
+}
+
+.natjecajiparagraph7{
+    position: absolute;
+    background-image: url("../../images/6.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 741px;
+    width: 400px;
+    height: 200px;
+    left: 70px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph7text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 0px;
+}
+
+.natjecajiparagraph8{
+    position: absolute;
+    background-image: url("../../images/6.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    top: 741px;
+    width: 400px;
+    height: 200px;
+    right: 70px;
+    border-radius: 10px;
+}
+
+.natjecajiparagraph8text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    left: 0px;
+}
