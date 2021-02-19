@@ -18,7 +18,11 @@ import {
             </div>
           </li>
           <li className={styles.title}>
+            <a
+                href="/"
+            >
                 Sinjski portal
+            </a>
           </li>
           <ul className={styles.address}>
             <li className={styles.contact}>
