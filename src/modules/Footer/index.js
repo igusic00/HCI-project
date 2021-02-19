@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './style.module.css'
+import ScrollUpButton from "react-scroll-up-button";
 /* import { Link } from 'react-router-dom'; */
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {
@@ -11,27 +12,20 @@ import {
 
   const Footer = () => (
     <footer className={styles.footer}>
-           <li className={styles.return}>
-{/*               <a 
-                
-              > */}
-                POVRATAK
-{/*               </a> */}
-            </li>
-            <li className={styles.title}>
-{/*               <a
-                href="http://localhost:8000/"
-                className="fnaslovnica" icon="fnaslovnica" textDecoration="none"
-              > */}
+          <li className={styles.return}>
+            <div>
+                <ScrollUpButton ToggledStyle={{bottom: 170}}/>
+            </div>
+          </li>
+          <li className={styles.title}>
                 Sinjski portal
-              {/* </a> */}
+          </li>
+          <ul className={styles.address}>
+            <li className={styles.contact}>
+                email: sinj_u_sridu@gmail.com
             </li>
-            <ul className={styles.address}>
-              <li className={styles.contact}>
-                    email: sinj_u_sridu@gmail.com
-              </li>
-              <li>tel: 021/822-775</li>
-              <li>Sinj, 2021</li>
+            <li>tel: 021/822-775</li>
+            <li>Sinj, 2021</li>
             </ul>
             <div className={styles.social}>
               <a 
