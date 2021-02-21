@@ -3,7 +3,6 @@ import styles from './style.module.css'
  
 const ImageParagraph = () => (
     <section className={styles.imageParagraph}>
-        <li className={styles.natjecaji}>
             <li className={styles.naslov1}>
                 <a href="natjecaji"> Natječaji </a>
             </li>
@@ -17,8 +16,7 @@ const ImageParagraph = () => (
                     <li className={styles.natjecajiparagraph2text}>Potpore investicijskim projektima</li>
                 </li>
             </a>
-        </li>
-        <li className={styles.oglasnik}>
+        
             <li className={styles.naslov2}>
                 <a href="oglasnik"> Oglasnik </a>
             </li>
@@ -32,7 +30,6 @@ const ImageParagraph = () => (
                     <li className={styles.oglasnikparagraph2text}>Repeticije iz matematike</li>
                 </li>
             </a>
-        </li>
     </section>
 )
 

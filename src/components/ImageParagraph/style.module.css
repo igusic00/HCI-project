@@ -1,130 +1,88 @@
 .imageParagraph{
+    position: relative;
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 60px;
-}
-
-.natjecaji {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px auto;
-    align-items: center;
-    /* background-color: #249750; */
+    width: 100%;
     height: 600px;
-    width: 500px;
-    margin-left: 150px;
-}
- 
-.oglasnik {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px auto;
-    align-items: center;
-    /* background-color: #12107e; */
-    height: 600px;
-    width: 500px;
-    margin-right: 150px;
 }
 
-.naslov1{
+.natjecajiparagraph1, .natjecajiparagraph2{
     position: absolute;
-    top: 0%;
-    left: 175px;
-    width: 150px;
-    background-color: #e2d0d0c0;
-    text-align: center;
-    font-size: 32px;
+    background-size: cover;
+    background-position: center;
+    display: flex;    
+    width: 480px;
+    height: 270px;
     border-radius: 10px;
-}
-
-.naslov2{
-    position: absolute;
-    top: 0%;
-    left: 175px;
-    width: 150px;
-    background-color: #e2d0d0c0;
-    text-align: center;
-    font-size: 32px;
-    border-radius: 10px;
+    left: 170px;
 }
 
 .natjecajiparagraph1{
-    position: absolute;
     background-image: url("../../images/5.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    top: 8%;
-    width: 100%;
-    height: 44%;
-    border-radius: 10px;
+    top: 50px;
 }
 
 .natjecajiparagraph2{
-    position: absolute;
     background-image: url("../../images/6.png");
+    bottom: 0px;
+}
+
+.oglasnikparagraph1, .oglasnikparagraph2{
+    position: absolute;
     background-size: cover;
     background-position: center;
     display: flex;
-    bottom: 0%;
-    width: 100%;
-    height: 44%;
+    width: 480px;
+    height: 270px;
     border-radius: 10px;
-    left: 0%;
-}
-
-.natjecajiparagraph1text{
-    position: absolute;
-    display: table;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: #e2d0d0c0;
-    text-align: center;
-    bottom: 0%;
-    padding: 10px;
-    left: 14px;
-}
-
-.natjecajiparagraph2text{
-    position: absolute;
-    display: table;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: #e2d0d0c0;
-    text-align: center;
-    bottom: 0%;
-    padding: 10px;
-    left: 94.5px;
+    right: 170px;
 }
 
 .oglasnikparagraph1{
-    position: absolute;
     background-image: url("../../images/8.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    top: 8%;
-    width: 100%;
-    height: 44%;
-    border-radius: 10px;
+    top: 50px;
 }
 
 .oglasnikparagraph2{
-    position: absolute;
     background-image: url("../../images/7.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
     bottom: 0%;
+}
+
+.naslov1, .naslov2{
+    position: absolute;
+    top: 0%;
+    width: 150px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.naslov1{
+    left: 335px;
+}
+
+.naslov2{
+    right: 335px;
+}
+
+.natjecajiparagraph1text, .natjecajiparagraph2text{
+    position: absolute;
+    display: table;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e2d0d0c0;
+    text-align: center;
+    bottom: 0%;
+    height: 40px;
     width: 100%;
-    height: 44%;
-    border-radius: 10px;
-    left: 0%;
+    line-height: 40px;
 }
 
-.oglasnikparagraph1text{
+.oglasnikparagraph1text, .oglasnikparagraph2text{
     position: absolute;
     display: table;
     font-size: 20px;
@@ -132,18 +90,7 @@
     background-color: #e2d0d0c0;
     text-align: center;
     bottom: 0%;
-    padding: 10px;
-    left: 111px;
-}
-
-.oglasnikparagraph2text{
-    position: absolute;
-    display: table;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: #e2d0d0c0;
-    text-align: center;
-    bottom: 0%;
-    padding: 10px;
-    left: 131.5px;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
 }

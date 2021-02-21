@@ -1,10 +1,10 @@
-.searching {
+.searching{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #dfc8c8;
-    width: 110px;
+    width: 207px;
     position:absolute;
     right: 0px;
-    margin-right: 0px;
-    top: 240px; 
+    top: 259px; 
+    list-style-type: none;
 }

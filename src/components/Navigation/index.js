@@ -8,7 +8,7 @@ const Navigation = (props) => (
   <section>
       <NavigationBar activeTab={props.activeTab} />
       <Login />
-      <Search />
+      <Search/>
       <Combobox />
   </section>
 )

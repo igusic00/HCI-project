@@ -1,9 +1,17 @@
-import React from 'react'
-import { TextField } from '@material-ui/core'
+import { FaSearch } from 'react-icons/fa'
 import styles from './style.module.css'
- 
-const Search = () => <form className={styles.searching} noValidate autoComplete="off">
-<TextField id="outlined-basic" label="Tražilica" variant="outlined" size="small"/>
-</form>
+import React, { useState } from "react";
+
+const Search = () => {
+    return(
+
+        <div className={styles.searching}>
+            <li className={styles.form} action="/search" method="get">
+                <input type="text" name="q" className={styles.input} placeholder="Upišite traženi pojam..."></input>
+                <button className={styles.search}><FaSearch style={{ marginBottom: '-3px' }}/></button>
+            </li>
+        </div>
+    )
+}
 
 export default Search
