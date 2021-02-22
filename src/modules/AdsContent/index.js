@@ -2,10 +2,18 @@ import React from 'react'
 import styles from './style.module.css'
 import { TextField } from '@material-ui/core'
 
+/* import Login from '../../components/Login'
+import {myLocalStorage} from '../../components/helper'
+const loggedIn = () => !!myLocalStorage.getItem('loggedIn') */
+
 const AdsContent = () => <section className={styles.AdsContent}>
     <li className={styles.oglasnik}>
+        <a href="/login">
             <li className={styles.naslov}>Dodaj oglas</li>
+        </a>
+        <a href="/login">
             <li className={styles.naslov2}>Moji oglasi</li>
+        </a>
             <li className={styles.oglasnikparagraph1}></li>
             <div className={styles.text1}>
                 <article>
