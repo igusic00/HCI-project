@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@capacitor/core": "^2.4.6",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
@@ -39,6 +40,7 @@
     "react-social-media-buttons": "^1.0.8"
   },
   "devDependencies": {
+    "@capacitor/cli": "2.4.6",
     "prettier": "2.1.2"
   },
   "keywords": [

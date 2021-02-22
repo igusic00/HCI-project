@@ -45,6 +45,9 @@ const Login = () => {
         <label htmlFor="username">
           Korisničko ime
         </label>
+        <a href="/">
+          <li className={styles.home}>X</li>
+        </a>
         <input name="username" onChange={e => setUserName(e.target.value)}/>
       </section>
       <section className={styles.field}>
@@ -56,6 +59,9 @@ const Login = () => {
       <p className={`${styles[error !== "Success" ? 'error' : 'success']} ${error ? styles.show : ''}`}>{error}</p>
       <button className={styles.loginButton} onClick={() => submit()}>
         {loading ? 'Učitavanje...' : 'Prijava'}
+      </button>
+      <button className={styles.register} onClick={()=> submit()}>
+        {'Registracija'}
       </button>
     </section>
   </main>
