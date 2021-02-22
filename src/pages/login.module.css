@@ -78,3 +78,15 @@
   .success.show {
     opacity: 1;
   }
+
+  .home{
+    background-color: #dfc8c8;
+    width: 50px;
+    position:absolute;
+    right: 0px;
+    margin-right: 0px;
+    top: 0px; 
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+  }
